@@ -1,7 +1,8 @@
 #include "mbed.h"
-#include "C12832_lcd.h"
+#include "C12832.h"
 
-C12832_LCD lcd;
+
+C12832 lcd(p5, p7, p6, p8, p11);
 
 int main()
 {
